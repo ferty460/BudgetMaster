@@ -1,0 +1,143 @@
+@media(max-width:1024px) {
+    .logo-block {
+        width: 100px;
+    }
+    .header-list {
+        gap: 25px;
+    }
+    .avatar {
+        width: 40px;
+    }
+    .profile-balance, .area-description {
+        font-size: 14px;
+    }
+    .title, .welcome-title {
+        font-size: 32px;
+    }
+    .question, .link-button {
+        font-size: 20px;
+    }
+    .form-label, .form-input, .profile-nickname, .header-link {
+        font-size: 16px;
+    }
+    .form-input {
+        padding: 10px;
+    }
+    .form-submit {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .area-item img {
+        max-width: 110px;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px)  {
+    .header-list {
+        display: none;
+    }
+    .area-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .area-item {
+        max-width: 100%;
+    }
+    .money-to-operation-block span {
+        font-size: 32px;
+    }
+    .money-to-operation {
+        max-width: 200px;
+        font-size: 32px;
+    }
+    .welcome-title, .title {
+        font-size: 24px;
+    }
+    .title {
+        margin: 10px 0;
+    }
+    .link-button, .subtitle, .action-switch span {
+        font-size: 18px;
+    }
+    .question, .time-item, .stat-item-name, .stat-item-info, .date {
+        font-size: 16px;
+    }
+    .form-label, .category label span {
+        font-size: 14px;
+    }
+    .form-input {
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    section, .register-form {
+        margin: 15px 0;
+    }
+    .form-submit {
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .action-switch, .date {
+        padding: 10px;
+    }
+    .category-bg {
+        width: 50px;
+        height: 50px;
+    }
+    .category-bg img {
+        width: 25px;
+    }
+}
+
+@media(max-width: 600px) {
+    .money-to-operation {
+        max-width: 150px;
+    }
+    .profile-nickname, .question, .form-submit, .date {
+        font-size: 14px;
+    }
+    .profile-balance, .area-description {
+        font-size: 12px;
+    }
+    .logo {
+        width: 90px;
+    }
+    .welcome-title, .title {
+        font-size: 18px;
+    }
+    .link-button {
+        font-size: 16px;
+    }
+    .stat-item-details {
+        gap: 10px;
+    }
+    .wallet-graphics {
+        max-width: 250px !important;
+        max-height: 250px !important;
+    }
+}
+
+@media(max-width: 425px) {
+    .profile-details {
+        display: none;
+    }
+    .welcome-title, .title {
+        font-size: 16px;
+    }
+    .area-item img {
+        max-width: 90px;
+    }
+    .subtitle, .link-button {
+        font-size: 14px;
+    }
+    .welcome-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .money-to-operation {
+        max-width: 100px;
+    }
+}

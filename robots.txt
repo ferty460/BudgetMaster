@@ -1,0 +1,31 @@
+User-agent: Yandex
+Disallow: /assets/admin.php
+Disallow: /assets/profile.php
+Allow: /assets/accounts.php
+Allow: /assets/add_operation.php?action=
+Allow: /assets/main.php
+Allow: /assets/my_wallet.php
+Allow: /assets/login.php
+Allow: /assets/registration.php
+
+User-agent: Googlebot
+Disallow: /assets/admin.php
+Disallow: /assets/profile.php
+Allow: /assets/accounts.php
+Allow: /assets/add_operation.php?action=
+Allow: /assets/main.php
+Allow: /assets/my_wallet.php
+Allow: /assets/login.php
+Allow: /assets/registration.php
+
+User-agent: *
+Disallow: /assets/admin.php
+Disallow: /assets/profile.php
+Allow: /assets/accounts.php
+Allow: /assets/add_operation.php?action=
+Allow: /assets/main.php
+Allow: /assets/my_wallet.php
+Allow: /assets/login.php
+Allow: /assets/registration.php
+
+Sitemap: https://budgetmasterr.000webhostapp.com/sitemap.xml
